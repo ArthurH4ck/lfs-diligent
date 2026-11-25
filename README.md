@@ -71,7 +71,7 @@ A checagem só lê um arquivo desta página: não envia nenhum dado seu. Há um 
 | Chat, pista ou lista de carros não aparecem | O InSim não conectou: digite `/insim 29999` no chat do jogo, confira a senha de admin (passo 3) e feche o **LFSLazy**. |
 | "Recusado" no passo do InSim | Senha de admin errada, ou outro programa (LFSLazy) ocupando o InSim. |
 | O HUD não aparece dentro do jogo | A DLL não está instalada ou está de versão antiga: com o **LFS e o ProStudios fechados**, clique em **Instalar/Atualizar DLL**. |
-| Não consigo instalar a DLL ("já existe um d3d9.dll") | Há outro programa usando esse arquivo. O app não o sobrescreve; renomeie-o à mão (com o LFS fechado) se quiser o HUD. |
+| Não consigo instalar a DLL ("já existe um d3d9.dll") | Há outro programa usando esse arquivo. Com o LFS e o ProStudios fechados, clique em **Instalar com backup**: o app guarda o arquivo antigo como `d3d9.dll.bak-…` e instala o HUD (em **Remover do LFS** o original volta). *(a partir da próxima versão)* |
 | Depois de atualizar, binds/placa/HUD estão "estranhos" | Falta a **DLL nova**: feche o LFS e clique em **Atualizar DLL**. |
 | Não consigo mexer em arquivos na pasta do LFS | O LFS está em `Program Files`, OneDrive ou outra pasta protegida; use `C:\LFS`. |
 | A atualização falhou | O app restaura a versão anterior sozinho. Tente de novo ou atualize à mão (veja [Atualizar](#atualizar)). |
